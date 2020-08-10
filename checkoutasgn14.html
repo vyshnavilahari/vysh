@@ -1,0 +1,330 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout Page</title>
+    <link type="text/css" rel="stylesheet" href="css/styles.css">
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.0/css/all.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;0,700;1,500;1,700&display=swap" rel="stylesheet">
+    <style>
+        .checked {
+                color: 	#FFD700;
+              }
+        #menu{
+            right:80%;
+          }
+    </style>
+</head>
+<body>
+  <div class="fixed-action-btn left click-to-toggle" id="menu">
+    <a class="btn-floating btn-large blue darken-4">
+      <i class="fa fa-ellipsis-h white-text" aria-hidden="true"></i>
+    </a>
+    <ul>
+      <!-- <li><a href="#" class="leffect black-text btn-floating white" onclick=" var elem = document.querySelectorAll('.fixed-action-btn');  var instance = M.FloatingActionButton.getInstance(elem);instance.close();"><i class=" fa fa-times red-text " aria-hidden="true" style="font-size: x-large;"></i><span></span></a></li> -->
+      <li><a href="#" class="leffect black-text btn-floating white "><i class=" fa fa-envelope red-text " aria-hidden="true" style="font-size: x-large;"></i><span></span></a></li>
+      <li><a href="#" class="leffect black-text btn-floating white"><i class=" fa fa-cube blue-text " aria-hidden="true" style="font-size: x-large;"></i>My Orders</a></li>
+      <li><a href="#" class="leffect black-text btn-floating white"><i class=" fa fa-credit-card-alt green-text " aria-hidden="true" style="font-size: large;"></i>My Payments</a></li>
+      <li><a href="#" class="leffect black-text btn-floating white"><i class=" fa fa-file-text orange-text " aria-hidden="true" style="font-size: x-large;"></i>Invoices</a></li>
+      <li><a href="#" class="leffect black-text btn-floating white"><i class=" fa fa-bell-o yellow-text " aria-hidden="true" style="font-size: x-large;"></i>Notifications</a></li>
+      <li><a href="#" class="leffect black-text btn-floating white"><i class=" fa fa-home purple-text " aria-hidden="true" style="font-size: x-large;"></i>Notifications</a></li>
+      <li><a href="#" class="leffect black-text btn-floating white"><i class=" fa fa-shopping-cart fa-6 black-text" aria-hidden="true" style="font-size: x-large;"></i>Notifications</a></li>
+    </ul>
+  </div>
+  <div class="navbar-fixed" >
+    <nav>
+        <div class="nav-wrapper white" style="padding-top: 4%;padding-bottom: 5%;">
+         
+            <a href="#" data-target="slide-out" class="sidenav-trigger"><i class="fa fa-bars black-text" aria-hidden="true"></i></a>
+            <a href="#" class="brand-logo "><img src="images/checkoutasgn14/icon.png" height=50px ></a>
+            <div class="container">
+                <div class="container">
+            <div class="container center">
+          <ul  class="left hide-on-med-and-down">
+            
+            <li><a href="#" class="  black-text ">Home</a></li>
+            <li><a href="#" class=" black-text ">About Us</a></li>
+            <li><a href="#" class=" black-text ">Products</a></li>
+            <li><a href="#" class=" black-text ">Solutions</a></li>
+            <li><a href="#" class="  black-text  ">Developers</a></li>
+            
+          </ul>
+        </div>
+        
+        <!-- <a href=""> <img src="prof.png" class="circle" width="50px" height="50px"></a> -->
+          </div>
+        </div>
+        <ul class="hide-on-med-and-down right">
+        <li><a href="#" class="" style="margin-top: 2mm;"> <img src="images/checkoutasgn14/prof.png" class="circle" width="50px" height="50px"></a>
+        </li><li>  <a class="black-text " style="margin-left:2mm; margin-top: 2mm;margin-bottom: 5mm;padding-left: 2mm;border-radius: 50px;max-height: 50px;width: 110px;border-style:inset; border-color:  black;"><strong>Hi, Anthony</strong></a>
+        </li>    <li> <a href="#" class=" black-text" style="margin-right: 2mm;"><i class="fa fa-shopping-cart fa-6" style="font-size: 10mm;" aria-hidden="true"></i></a>
+     
+     
+       </li>
+      </ul>
+        </div>
+      </nav>
+      </div>
+      <ul id="slide-out" class="sidenav">
+        <br><br>
+        <li><a href="#user" class="center"><img class="circle" src="images/solutions3/prof.png" width="50px" height="50px"></a>
+         </li>
+        <li><a href="#name" class="center"><span class=" name">Hi, Anthony</span></a></li>
+        <div class="container center"><div class="divider" width="70% !important;"></div></div>
+         <li><a href="#" class=" leffect black-text ">Home</a></li>
+            <li><a href="#" class=" leffect black-text ">About Us</a></li>
+            <li><a href="#" class=" leffect black-text ">Products</a></li>
+            <li><a href="#" class=" leffect black-text ">Solutions</a></li>
+            <li><a href="#" class=" leffect black-text  ">Developers</a></li>
+            <br><li><a class="leffect center"><div class="chip blue darken-4 white-text">Logout</div></a></li>
+            <!-- <li><div class="divider"></div></li>
+            <li> <a href="#" class="leffect black-text" style="margin-left: -2%;"><i class="leffect fa fa-shopping-cart fa-6 "  aria-hidden="true" style="font-size: xx-large;"></i>View Cart</a>
+          </li>
+            <li class="onhover" ></i><a href="#" class="leffect black-text " style="margin-left: -1%;"><i class="fa fa-home purple-text" aria-hidden="true" style="font-size: xx-large;"></i>Your Details</a></li>
+            <li><a href="#" class="leffect black-text"><i class="fa fa-envelope red-text " aria-hidden="true" style="font-size: x-large;"></i>Inbox</a></li>
+            <li><a href="#" class="leffect black-text"><i class="fa fa-cube blue-text " aria-hidden="true" style="font-size: x-large;"></i>My Orders</a></li>
+            <li><a href="#" class="leffect black-text"><i class="fa fa-credit-card-alt green-text " aria-hidden="true" style="font-size: large;"></i>My Payments</a></li>
+            <li><a href="#" class="leffect black-text"><i class="fa fa-file-text orange-text " aria-hidden="true" style="font-size: x-large;"></i>Invoices</a></li>
+            <li><a href="#" class="leffect black-text"><i class="fa fa-bell-o yellow-text " aria-hidden="true" style="font-size: x-large;"></i>Notifications</a></li> -->
+      </ul>
+      
+     
+    <div class="center blue darken-4 " >
+        <h4 style="margin-bottom: 0mm;padding-top: 5mm;padding-bottom: 5mm;"class="white-text">CHECKOUT PAGE</h4>
+    </div>
+    <div class="center z-depth-4" >
+        <h6 style="margin-top: 0mm;padding-top: 5mm;padding-bottom: 5mm;"class="blue-text text-darken-4">Home > Checkout Page</h6>
+    </div>
+    <div class="row sidelink" style="">
+        <div class="col l2 s12 hide-on-med-and-down" data-aos = "fade-up">
+            
+            <ul>
+            <li class="onhover" ><i class="fa fa-home purple-text" aria-hidden="true"></i>&nbsp;&nbsp;<a href="#" class="black-text ">Your Details</a></li><br>
+                <li class="onhover"><i class="fa fa-envelope red-text " aria-hidden="true"></i>&nbsp;&nbsp;<a href="#" class="black-text">Inbox</a></li><br>
+                <li class="onhover"><i class="fa fa-cube blue-text" aria-hidden="true"></i>&nbsp;&nbsp;<a href="#" class="black-text">My Orders</a></li><br>
+                <li class="onhover"><i class="fa fa-credit-card-alt green-text" aria-hidden="true"></i>&nbsp;&nbsp;<a href="#" class="black-text">My Payments</a></li><br>
+                <li class="onhover"><i class="fa fa-file-text orange-text" aria-hidden="true"></i>&nbsp;&nbsp;<a href="#" class="black-text">Invoices</a></li><br>
+                <li class="onhover"><i class="fa fa-bell-o yellow-text" aria-hidden="true"></i>&nbsp;&nbsp;<a href="#" class="black-text">Notifications</a></li><br>
+            </ul>
+        </div>
+      </div> 
+
+        <div class="container">
+            <div class=" blue darken-4 center" style="margin-top:10mm;height: 30mm;"></div>
+            <div class="container">
+            <div data-aos = "fade-up" class="card-panel center" style="margin-top: -23mm;border-radius: 2mm;" >
+               <h6><strong>YOUR ORDER HISTORY</strong></h6>
+               <a class="right black-text onhover"><i class="fa fa-pencil-square-o" aria-hidden="true"></i>&nbsp;<span>Manage</span></a>
+               <br>
+               <a>
+                <div>
+                  <br>
+                 <div class="divider" ></div> <br>
+                 <!-- <span id='close' onclick='this.parentNode.parentNode.parentNode.removeChild(this.parentNode.parentNode); return false;'>
+                   <i class="fa fa-window-close red-text right" style="font-size: x-large;" aria-hidden="true"></i>
+                 </span> -->
+               <img  data-aos="fade-up" src="images/cart9/cart1.svg" style="width: 100%;" >
+               <!-- <div class="row"> -->
+                   <!-- <div class="left"> -->
+               <h6 class="black-text"><strong>Product Name</strong></h6>
+               <label class="black-text"><strong>Travello Website</strong></label><br>
+               <label>by, Themes Arcade</label><br>
+              
+               <a><label class="indigo-text text-darken-4 leffect" style="border-bottom: solid 1px black;">Product ID-#12ABCZ</label></a><br>
+            
+               <h6><strong>&#x20B9;&nbsp;150</strong></h6>
+             
+               <i class="fa fa-tags" aria-hidden="true" style="font-size: larger;"></i>&nbsp;
+               <div class="chip green white-text">TRAVEL</div><br>
+               <h6><strong>Purchase Date</strong></h6>
+               <label class="black-text">March 24, 2020</label><br>
+               <label class="black-text">23:45 Hrs</label>
+               <br><br>
+               <span class="fa fa-star checked"></span>
+               <span class="fa fa-star checked"></span>
+               <span class="fa fa-star checked"></span>
+               <span class="fa fa-star checked"></span>
+               <span class="fa fa-star checked"></span><br>
+               <h6><strong>Product Related Support</strong></h6>
+               <a class="black-text"><i class="fa fa-envelope leffect" aria-hidden="true" style="font-size: x-large;"></i></a>&nbsp;&nbsp;&nbsp;
+               <a class="black-text"><i class="fa fa-download leffect" aria-hidden="true" style="font-size: x-large;"></i></a>&nbsp;&nbsp;&nbsp;
+               <a class="black-text"><i class="fa fa-question-circle leffect" aria-hidden="true" style="font-size: x-large;"></i></a>&nbsp;&nbsp;&nbsp;
+               <a class="black-text"><i class="fa fa-undo leffect" aria-hidden="true" style="font-size: x-large;"></i></a>&nbsp;&nbsp;&nbsp;
+              
+                   </div>
+               </a>
+               <a>
+                <div>
+                  <br>
+                 <div class="divider" ></div> <br>
+                 <!-- <span id='close' onclick='this.parentNode.parentNode.parentNode.removeChild(this.parentNode.parentNode); return false;'>
+                   <i class="fa fa-window-close red-text right" style="font-size: x-large;" aria-hidden="true"></i>
+                 </span> -->
+               <img  data-aos="fade-up" src="images/cart9/cart1.svg" style="width: 100%;" >
+               <!-- <div class="row"> -->
+                   <!-- <div class="left"> -->
+               <h6 class="black-text"><strong>Product Name</strong></h6>
+               <label class="black-text"><strong>Travello Website</strong></label><br>
+               <label>by, Themes Arcade</label><br>
+              
+               <a><label class="indigo-text text-darken-4 leffect" style="border-bottom: solid 1px black;">Product ID-#12ABCZ</label></a><br>
+            
+               <h6><strong>&#x20B9;&nbsp;150</strong></h6>
+             
+               <i class="fa fa-tags" aria-hidden="true" style="font-size: larger;"></i>&nbsp;
+               <div class="chip green white-text">TRAVEL</div><br>
+               <h6><strong>Purchase Date</strong></h6>
+               <label class="black-text">March 24, 2020</label><br>
+               <label class="black-text">23:45 Hrs</label>
+               <br><br>
+               <span class="fa fa-star checked"></span>
+               <span class="fa fa-star checked"></span>
+               <span class="fa fa-star checked"></span>
+               <span class="fa fa-star checked"></span>
+               <span class="fa fa-star checked"></span><br>
+               <h6><strong>Product Related Support</strong></h6>
+               <a class="black-text"><i class="fa fa-envelope leffect" aria-hidden="true" style="font-size: x-large;"></i></a>&nbsp;&nbsp;&nbsp;
+               <a class="black-text"><i class="fa fa-download leffect" aria-hidden="true" style="font-size: x-large;"></i></a>&nbsp;&nbsp;&nbsp;
+               <a class="black-text"><i class="fa fa-question-circle leffect" aria-hidden="true" style="font-size: x-large;"></i></a>&nbsp;&nbsp;&nbsp;
+               <a class="black-text"><i class="fa fa-undo leffect" aria-hidden="true" style="font-size: x-large;"></i></a>&nbsp;&nbsp;&nbsp;
+              
+                   </div>
+               </a>
+               <br>
+               <div class="divider"></div><br>
+               <a href="#" class="onhover black-text"><span><strong>View More&nbsp;&nbsp;<i class="fa fa-angle-down" style="font-size: large;" aria-hidden="true"></i></strong></span>
+               </a>
+            </div>  
+                
+            </div>
+                
+
+
+    
+        
+        </div>
+        
+ 
+   
+    <footer class="page-footer blue-grey lighten-5" style="">
+                
+        <!-- <div class="container "> -->
+         
+          <div class="row">
+            <img class="col s8" src="images/checkoutasgn14/icon.png">
+            <div class="col m4 s12 aos-init" data-aos="fade-up">
+              
+              <p class="black-text" style="text-align: justify;
+              text-justify: inter-word;">We have got you covered if you need a
+                specific software based on your organization's
+                needs or guidelines. We've got you
+                covered if you need a specific software
+                based on your organization's needs or
+                guidelines. We have got you covered if
+                you need a specific software based on
+                your organization's needs or guidelines.
+                you need a specific software based on
+                your organization's needs or guidelines.
+                you need a specific software based on </p>
+            </div>
+            <div class="col m2 s12 aos-init" data-aos="fade-up">
+              <h5 class="black-text">Legals</h5>
+              <div class="tag"></div>
+              <ul>
+                <li><a class="black-text leffect" href="#!">Privacy Policy</a></li>
+                <li><a class="black-text leffect" href="#!">Terms of Service</a></li>
+                <li><a class="black-text leffect" href="#!">Disclaimer</a></li>
+                
+              </ul>
+            </div>
+            <div class="col m2 s12 aos-init" data-aos="fade-up">
+              <h5 class="black-text">Resources</h5>
+              <div class="tag"></div>
+              <ul>
+                <li><a class="black-text leffect" href="#!">Events</a></li>
+                <li><a class="black-text leffect" href="#!">Blogs</a></li>
+                <li><a class="black-text leffect" href="#!">Chargeback Guide</a></li>
+                <li><a class="black-text leffect" href="#!">Customer Stories</a></li>
+                <li><a class="black-text leffect" href="#!">Settlement Guide</a></li>
+              </ul>
+            </div>
+            <div class="col m2 s12 aos-init" data-aos="fade-up">
+              <h5 class="black-text">Help and Support</h5>
+              <div class="tag"></div>
+              <ul>
+                <li><a class="black-text leffect" href="#!">Support</a></li>
+                <li><a class="black-text leffect" href="#!">Raise a Request</a></li>
+                <li><a class="black-text leffect" href="#!">File a Grievance</a></li>
+                <li><a class="black-text leffect" href="#!">Knowledge Base</a></li>
+                
+              </ul>
+            </div>
+            <div class="col m2 s12 aos-init" data-aos="fade-up">
+              <h5 class="black-text">Social</h5>
+              <div class="tag"></div>
+              <br>
+              <a href="#" class="leffect"><i class="fa fa-facebook-official blue-text text-darken-2" style="font-size: x-large;" aria-hidden="true"></i></a>&nbsp;
+              &nbsp;<a href="#" class="leffect"><i class="fab fa-google fa-3x" style="font-size: x-large;" aria-hidden="true"></i></a>&nbsp;
+              &nbsp;<a href="#" class="leffect"><i class="fa fa-github black-text" style="font-size: x-large;" aria-hidden="true"></i></a>&nbsp;
+              &nbsp;<a href="#" class="leffect"><i class="fa fa-linkedin blue-text text-darken-3" style="font-size: x-large;" aria-hidden="true"></i></a>&nbsp;
+            </div>
+            
+          </div>
+          <div class="row">
+          <div class="black-text col m4 aos-init" data-aos="fade-up"></div>
+            <div class="black-text col m6">
+            <h5 class="">Contact Details
+            </h5>
+            <div class="tag"></div>
+            <br>
+            <div class="row">
+              <div class="col m7">
+              <a href="#" class="black-text leffect"><i class="fa fa-map-marker" aria-hidden="true"></i>&nbsp;&nbsp;20, A Wing, Manmohan Apartment
+                Kamatwada, Pavan Nagar, Nashik - 422006</a>
+              </div>
+              <div class="col m5">
+                <a href="#" class="black-text leffect"><i class="fa fa-phone" aria-hidden="true"></i>&nbsp;&nbsp;+91-9664528792</a><br>
+               <a href="#" class="black-text leffect"><i class="fa fa-envelope" aria-hidden="true"></i>&nbsp;&nbsp;info@digitalvault.in</a>
+              </div>
+
+            </div>
+           </div>
+
+            </div>
+       
+      </footer>
+      <div class="fixed-action-btn " >
+        <a class="btn-floating btn-large blue darken-4" id="go-to-top"><i class="fa fa-arrow-up white-text" aria-hidden="true"></i></a>
+      </div>
+     
+  
+      <script src="https://code.jquery.com/jquery-3.5.1.js" ></script>
+      <script src="js/materialize.min.js"></script>
+  
+    
+    
+        <script>
+             $(document).ready(function(){
+    $('.sidenav').sidenav();
+  });
+
+  document.addEventListener('DOMContentLoaded', function() {
+    var elems = document.querySelectorAll('.fixed-action-btn');
+    var instances = M.FloatingActionButton.init(elems, {
+      // direction: 'left',
+      hoverEnabled: false
+    });
+  });
+ 
+                      $('#go-to-top').each(function(){
+    $(this).click(function(){ 
+        $('html,body').animate({ scrollTop: 0 }, 'slow');
+        return false; 
+    });
+  });
+        </script>
+
+</body>
+</html>
