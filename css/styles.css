@@ -1,0 +1,265 @@
+*{
+  font-family: 'Poppins', sans-serif;
+  
+}
+body h6{
+  line-height: 1.6;
+}
+body strong{
+  font-weight: 700;
+}
+
+.slant{
+  background-image: linear-gradient(8deg,#0d47a1 70%, white calc(70% + 2px)) ;
+}
+
+nav {
+  height: 80px !important;
+  line-height: 30px !important;
+}
+nav i, nav [class^="mdi-"], nav [class*="mdi-"], nav i.material-icons {
+  height: 80px;
+  line-height: 30px;
+}
+
+.round{
+  margin-left: 6%;
+  list-style-type: circle !important;
+ }
+
+ .dot {
+  height: 8px;
+  width: 8px;
+  background-color: green;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+nav .button-collapse i {
+  height: 80px;
+  line-height: 30px;
+}
+
+.waves-effect.waves-blue .waves-ripple {
+   background-color: rgba(236, 239, 241, 0.45);
+ }
+ .leffect:hover {
+  /* text-decoration: underline;
+  background-color: #eceff1; */
+  opacity: 0.7;
+  filter: alpha(opacity=30);
+}
+
+  .leffect:active {
+   /* text-decoration: underline;
+   background-color: #eceff1; */
+   opacity: 0.7;
+   filter: alpha(opacity=30);
+ }
+ 
+      
+
+nav .brand-logo { 
+  font-size: 1.6rem; 
+}
+
+@media only screen and (min-width: 601px){
+  nav, nav .nav-wrapper i, nav a.button-collapse, nav a.button-collapse i {
+      height: 80px;
+      line-height: 30px;
+  }
+}
+
+.fa-google {
+  background: conic-gradient(from -45deg, #ea4335 110deg, #4285f4 90deg 180deg, #34a853 180deg 270deg, #fbbc05 270deg) 73% 55%/150% 150% no-repeat;
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  -webkit-text-fill-color: transparent;
+}
+
+.tag1{
+  width: 40px;height:10px;background-color:#0d47a1;margin-left: -10mm;margin-top:5mm;
+}
+
+
+.tag{
+  width: 35px;height:6px;background-color:#0d47a1;
+}
+
+#divtop { z-index: 1 !important; }
+
+.just{
+  text-align: justify;
+}
+
+
+
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+ nav ul a,
+ nav .brand-logo {
+   color: #444;
+ }
+ 
+ p {
+   line-height: 2rem;
+ }
+ 
+ .sidenav-trigger {
+   color: #26a69a;
+ }
+ 
+ .parallax-container {
+   min-height: 380px;
+   line-height: 0;
+   height: auto;
+   color: rgba(255,255,255,.9);
+ }
+   .parallax-container .section {
+     width: 100%;
+   }
+ 
+ @media only screen and (max-width : 992px) {
+   .parallax-container .section {
+     position: absolute;
+     top: 40%;
+   }
+   #index-banner .section {
+     top: 10%;
+   }
+ }
+ 
+ @media only screen and (max-width : 600px) {
+   #index-banner .section {
+     top: 0;
+   }
+ }
+ 
+ .icon-block {
+   padding: 0 15px;
+ }
+ .icon-block .material-icons {
+   font-size: inherit;
+ }
+ 
+ footer.page-footer {
+   margin: 0;
+ }
+
+ 
+
+ .ab {
+  cursor:pointer;
+  padding:10px 12px 8px;
+  background:#fff;
+  border-radius:50%;
+  display:inline-block;
+  margin:0 0 15px;
+  color:#aaa;
+  transition:.2s;
+}
+
+.ab:hover {
+  color:#666;
+}
+
+.ab:before {
+  font-family:fontawesome;
+  content:'\f004';
+  font-style:normal;
+}
+
+
+.ab1 {
+ 
+  color:#aaa;
+  transition:.2s;
+}
+
+.ab1:hover {
+  color:#666;
+}
+
+.ab1:before {
+  font-family:fontawesome;
+  content:'\f004';
+  font-style:normal;
+  /* color:#aaa; */
+}
+
+.ab1.press {
+  animation: size .4s;
+  color:#e23b3b;
+}
+
+
+
+.cd {
+  position: absolute;
+  bottom:70px;
+  left:0;
+  right:0;
+  visibility: hidden;
+  transition:.6s;
+  z-index:-2;
+  font-size:2px;
+  color:transparent;
+  font-weight:400;
+}
+
+.ab.press {
+  animation: size .4s;
+  color:#e23b3b;
+}
+
+.cd.press {
+  bottom:120px;
+  font-size:14px;
+  visibility:visible;
+  animation: fade 1s;
+}
+
+@keyframes fade {
+  0% {color:#transparent;}
+  50% {color:#e23b3b;}
+  100% {color:#transparent;}
+}
+
+@keyframes size {
+  0% {padding:10px 12px 8px;}
+  50% {padding:14px 16px 12px;  
+    margin-top:-4px;}
+  100% {padding:10px 12px 8px;}
+}
+
+.tabs .tab a:hover, .tabs .tab a.active
+{
+  background-color: #0d47a1  !important;
+  outline:#0d47a1  !important;
+}
+.checkbox-orange[type="checkbox"].filled-in:checked + span:not(.lever):after 
+{
+    border: 2px solid #0d47a1;  
+    background-color: #0d47a1;
+}
+.tabs{
+  border-radius: 7px !important;
+}
+
+.inplogin{
+  color: #3880ec;
+  padding: 0px !important; 
+  /* border-color: #0d47a1 !important; */
+  border-color: black !important;
+  border-style:  solid !important;
+  border-width: 1px !important;
+  padding-left: 2px !important;
+  border-radius: 7px !important;
+}
