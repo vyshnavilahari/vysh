@@ -47,18 +47,7 @@
             color: gray; 
         } 
 
-            .inp{
-                width: 80% !important;
-          padding: 0px !important; 
-          background-color: #172B4D !important;
-          border-color: #172B4D  !important;
-          border-style:  solid !important;
-          border-width: 1px !important;
-          border-radius: 8px !important;
-          padding-left: 2px !important;
-          color: white;
-          
-        }
+           
         .inp2{
             width: 100% !important ;  
             padding: 12px 40px !important;  
@@ -68,8 +57,80 @@
             border-color: #172B4D  !important;
             box-sizing: border-box !important;  
             background-color: #172B4D !important;
+            color: white;
+            border-radius: 7px !important;
+            /* font-size: small !important; */
+        }
+        input,
+        input::-webkit-input-placeholder {
+            font-size: small !important;
+            line-height: 3;
         }
 
+        .cards {
+            position: relative;  
+            list-style-type: none;
+            padding: 0;
+            max-width: 34em;
+            margin: 20% auto 0;
+          }
+
+          .card {
+            position: absolute;
+            top: 0;
+            left: 0;
+            z-index: 2;
+            
+            background: #ccc;
+            border-radius: 24px;
+            padding-top: 0px;
+            /* padding: 15px; */
+            padding-bottom: 20px;
+            padding-left: 15px;
+            padding-right: 15px;
+            /* box-shadow: 0 0 40px #000; */
+            transform: translateY(0) rotate(4deg) translateX(25px) scale(1);
+            transform-origin: 0 0;
+            
+            transition: transform 0.6s cubic-bezier(.8,.2,.1,0.8) 0.1s,
+              background 0.4s linear;
+            
+            cursor: pointer;
+            user-select: none;
+            
+            :last-child { margin-bottom: 0; }
+          }
+
+          .card--next { 
+            z-index: 5; 
+            transform: translateY(-25px) rotate(4deg) translateX(25px) scale(1);
+          }
+
+          .card--out {
+            animation: card-out 0.6s cubic-bezier(.8,.2,.1,0.8);
+            transform: translateY(-50px) rotate(8deg) translateX(55px) scale(0.95);
+            z-index: 1;
+            background: #bbb;
+          }
+
+          @keyframes card-out {
+            0% { z-index: 20; transform: translateY(0px) rotate(-4deg); }
+            50% { transform: translateY(-120%) rotate(-5deg) translateX(-40px); }
+            80% { z-index: 1; }
+            100% { transform: translateY(-50px) rotate(8deg) translateX(55px) scale(0.95); }
+          }
+
+          .card--current {
+            cursor: auto;
+            user-select: auto;
+            position: relative;
+            z-index: 10;
+            opacity: 1;
+            background: #EEE;
+            transform: rotate(-1deg) translateX(0%) scale(1);
+          }
+        
+        
     </style>
     <title>Payment Page</title>
     
@@ -131,8 +192,45 @@
                 <div class="container">
                     <div class=" blue darken-4 center" style="margin-top:10mm;height: 30mm;padding-top: 4px;"></div>
                     
-                    <div  class="card-panel" style="margin-top: -25mm; margin-left: 5mm;margin-right: 5mm;border-radius: 2mm;" >
+                    <div  class="card-panel" style="margin-top: -22mm; margin-left: 5mm;margin-right: 5mm;border-radius: 2mm;" >
                         <h6 style="text-transform: uppercase;" class="center"><strong>Your payment history</strong></h6><br>
+                        <span><strong>SAVED CARDS</strong></span><label class="right" style="margin-top: 2px;"><a  class="grey-text leffect"><i class="fa fa-pencil-square-o" aria-hidden="true"></i>&nbsp;Manage</a></label><br><br>
+                        <ul class="cards">
+  
+                          <li class="card" style="background-color: #7764E4;">
+                              <div style="border-radius: 10px;">
+                              <br><img src="images/customer17/mastercard_vrt_pos_92px_2x.svg"><br>
+                              <label class="white-text">CARD NUMBER</label><br>
+                              <span class="white-text" ><strong>1234-5678-9012-3456</strong></span>
+                              <br><br>
+                              <label class="white-text">NAME</label><label class="right white-text">EXPIRY DATE</label><br><span class="white-text"><strong>Arya Stark</strong></span><span class="white-text right"><strong>11/23</strong></span>
+                            </div>
+                          </li>
+                          <li class="card" style="background-color: #EAA219;">
+                            <div style="border-radius: 10px;">
+                              <br><img src="images/customer17/mastercard_vrt_pos_92px_2x.svg"><br>
+                              <label class="white-text">CARD NUMBER</label><br>
+                              <span class="white-text" ><strong>1234-5678-9012-3456</strong></span>
+                              <br><br>
+                              <label class="white-text">NAME</label><label class="right white-text">EXPIRY DATE</label><br><span class="white-text"><strong>Arya Stark</strong></span><span class="white-text right"><strong>11/23</strong></span>
+                            </div>
+                        
+                          </li>
+                          <li class="card" style="background-color: #49BE55;">
+                            <div style="border-radius: 10px;">
+                              <br><img src="images/customer17/mastercard_vrt_pos_92px_2x.svg"><br>
+                              <label class="white-text">CARD NUMBER</label><br>
+                              <span class="white-text" ><strong>1234-5678-9012-3456</strong></span>
+                              <br><br>
+                              <label class="white-text">NAME</label><label class="right white-text">EXPIRY DATE</label><br><span class="white-text"><strong>Arya Stark</strong></span><span class="white-text right"><strong>11/23</strong></span>
+                            </div>
+                        
+                          </li>
+                         
+                        </ul>
+                        <div class="center"><button class="btn blue darken-4 white-text " id="nextbtn" style="text-transform: capitalize;border-radius: 7px;">Next Card</button>
+                        </div>
+                          <br><br>
                         <div class="card-panel" style="padding-right: 0px;">
                         <div class="right" style="padding-right: 10px;" ><img src="images/customer17/Ellipse 2.svg" style="margin-bottom: -15px;margin-left: 5px" ><img src="images/customer17/Icon payment-cash.svg" style="margin-left: -40px;">
                            <br><br> <label style="color: #2DCE98;"  >+89 Points</label>
@@ -143,9 +241,78 @@
                           <br>
                         <span style="font-size: large;"><strong>+ ADD MONEY</strong></span>
                         </div>
-                        <div  class="center"><span><strong >OFFERS AVAILABLE</strong></span></div>
-                    </div>
+                        <br><br>
+                        <div  class="center"><h6><strong >OFFERS AVAILABLE</strong></h6></div><br>
+                        <div class="card-panel" style="padding-right: 15px;">
+                            <img src="images/customer17/Group 17.svg" class="right">
+                            <label>OFFER ID : #9892DES</label><br>
+                            <h6><strong>Coupon Code : FLAT25</strong></h6>
+                            <label style="color: #2DCE98;font-size:small;">Use Before 25th March</label><br>
+                            <label style="font-size: x-small;">*Terms and Conditions Apply</label>
+                          </div>
+                          <div class="card-panel" style="padding-right: 15px;">
+                            <img src="images/customer17/Group 17.svg" class="right">
+                            <label>OFFER ID : #9892DES</label><br>
+                            <h6><strong>Coupon Code : FLAT25</strong></h6>
+                            <label style="color: #2DCE98;font-size:small;">Use Before 25th March</label><br>
+                            <label style="font-size: x-small;">*Terms and Conditions Apply</label>
+                          </div>
+                          <div class="card-panel" style="padding-right: 15px;">
+                            <img src="images/customer17/Group 17.svg" class="right">
+                            <label>OFFER ID : #9892DES</label><br>
+                            <h6><strong>Coupon Code : FLAT25</strong></h6>
+                            <label style="color: #2DCE98;font-size:small;">Use Before 25th March</label><br>
+                            <label style="font-size: x-small;">*Terms and Conditions Apply</label>
+                          </div><br>
+                        <div class="center"><span style="background-color: #EAA219;padding: 7px;text-transform: uppercase;" class="white-text">+ Add Coupons</span></div>
+                          
+                        </div>
+                        <br>
+                          
+                        <div class="container" >
+                            <div class="center"><h6><strong>ADD A NEW CARD</strong></h6></div>
+                            <div class="card-panel" style="background-color: #7764E4;border-radius: 10px;">
+                                <img src="images/customer17/mastercard_vrt_pos_92px_2x.svg" >
+                                <div class="switch right" style="margin-top: 5px;margin-right: -14px;">
+                                    <label class="white-text">
+                                      Mobile Default
+                                      <input type="checkbox" class="blue darken-4">
+                                      <span class="lever white"></span>
+                                
+                                    </label>
+                                  </div>
+                                <div class="fontuser">
+                                <input type="text" placeholder="Name on Card" class="inp2">
+                                <i class="fa fa-user-o white-text "></i> 
+                                </div>
+                                <div class="fontuser">
+                                    <input type="text" placeholder="Card Number" class="inp2">
+                                    <i class="fa fa-credit-card" ></i>
+                                    </div>
+                                <div class="row" style="margin-left: -10px;margin-right: -10px;">
+                                    <div class="col s6">
+                                        <div class="fontuser">
+                                        <input type="text" placeholder="mm/yy" class="inp2">
+                                        <i class="fa fa-calendar-o" aria-hidden="true"></i>
+                                        </div>
+                                    </div>
+                                    <div class="col s6 right">
+                                        <div class="fontuser">
+                                        <input type="password" placeholder="CVV" class="inp2">
+                                        <i class="fa fa-lock" ></i>
+                                        </div>
+                                    <!-- </div> -->
+                                </div>
+                            </div>
+                                <div class="center"><button class="btn leffect" style="background-color: #172B4D ;color: white;text-transform: capitalize;border-radius: 7px;">Save new Card</button></div>
+                               
+                                </div>
+                        </div>
+                        <br>
                 </div>
+                
+                
+
                 <div class="container">
                     <div class="card-panel center" style=" margin-left: 5mm;margin-right: 5mm;border-radius: 2mm;"  >
                         
@@ -158,7 +325,7 @@
                     </div>
                     <div class="card-panel center" style=" margin-left: 5mm;margin-right: 5mm;border-radius: 2mm;" >
                       
-                        <img src="images/solutions3/is.png" width="100%" >
+                        <img src="images/solutions3/Group 10889.png" width="100%" >
                         <br>
                         <h6>Smooth <strong>Transaction</strong></h6>
                         <p > 
@@ -166,31 +333,9 @@
                         </p>
                     </div>
                 </div>
-                
-                <div class="container">
-                <div class="card-panel" style="background-color: #0d47a1;">
-                    <div class="container">
-                    <!-- <div class="icons "><i class="fa fa-user-o white-text " aria-hidden="true"></i></div> -->
-                    <div class="fontuser">
-                    <input type="text " placeholder="Name on Card" class="inp2 ">
-                    <i class="fa fa-user fa-lg "></i> 
-                    </div>
-
-                    <input type="text" placeholder="Card Number" class="inp2">
-                    <div class="row" style="margin-left: -10px;margin-right: -10px;">
-                        <div class="col s6">
-                            <input type="date" placeholder="Expiry Date" class="inp2">
-                        </div>
-                        <div class="col s6 right">
-                            <div class="fontpassword">
-                            <input type="password" placeholder="CVV" class="inp2">
-                            <i class="fa fa-key fa-lg"></i>
-                            </div>
-                        </div>
-                    </div>
-                    </div>
-                    </div>
                 </div>
+                <br><br>
+              
                 <footer class="page-footer blue-grey lighten-5" style="">
                     
                     <!-- <div class="container "> -->
@@ -307,6 +452,37 @@
         });
     });
                 </script>
-    
+                 <script>
+                  $.fn.commentCards = function(){
+                  return this.each(function(){
+                    var $this = $(this),
+                        $cards = $this.find('.card'),
+                        $current = $cards.filter('.card--current'),
+                        $next;
+                    $cards.on('click',function(){
+                      if ( !$current.is(this) ) {
+                        $cards.removeClass('card--current card--out card--next');
+                        $current.addClass('card--out');
+                        $current = $(this).addClass('card--current');
+                        $next = $current.next();
+                        $next = $next.length ? $next : $cards.first();
+                        $next.addClass('card--next');
+                      }
+                    });
+                    document.getElementById('nextbtn').addEventListener('click',function(){
+                        $next1 = $current.next();
+                        $next1 = $next1.length ? $next1 : $cards.first();
+                        $next1.trigger('click');
+                    });
+                    if ( !$current.length ) {
+                      $current = $cards.last();
+                      $cards.first().trigger('click');
+                    }
+                    $this.addClass('cards--active');
+                  })
+                  };
+                  $('.cards').commentCards();
+              </script>
+               
     </body>
     </html>
