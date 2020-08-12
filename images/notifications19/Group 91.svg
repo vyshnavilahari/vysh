@@ -1,0 +1,15 @@
+<svg id="Group_91" data-name="Group 91" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="53" height="52" viewBox="0 0 53 52">
+  <defs>
+    <clipPath id="clip-path">
+      <rect width="27" height="31" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="Ellipse_359" data-name="Ellipse 359" fill="rgba(45,206,152,0.3)" stroke="#2dce98" stroke-width="1">
+    <ellipse cx="26.5" cy="26" rx="26.5" ry="26" stroke="none"/>
+    <ellipse cx="26.5" cy="26" rx="26" ry="25.5" fill="none"/>
+  </g>
+  <g id="bell" transform="translate(13 12)" clip-path="url(#clip-path)">
+    <path id="Path_447" data-name="Path 447" d="M22.94,11.176C22.94,6.108,19.369,2,14.964,2S6.988,6.108,6.988,11.176C6.988,21.881,3,24.94,3,24.94H26.928S22.94,21.881,22.94,11.176" transform="translate(-1.671 -0.671)" fill="none" stroke="#2dce98" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <path id="Path_448" data-name="Path 448" d="M14.87,21a2.659,2.659,0,0,1-4.6,0" transform="translate(0.724 8.587)" fill="none" stroke="#2dce98" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+  </g>
+</svg>

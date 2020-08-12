@@ -1,0 +1,15 @@
+<svg id="Group_92" data-name="Group 92" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="53" height="53" viewBox="0 0 53 53">
+  <defs>
+    <clipPath id="clip-path">
+      <rect width="29" height="24" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="Ellipse_359" data-name="Ellipse 359" fill="rgba(245,60,86,0.3)" stroke="#f53c56" stroke-width="1">
+    <circle cx="26.5" cy="26.5" r="26.5" stroke="none"/>
+    <circle cx="26.5" cy="26.5" r="26" fill="none"/>
+  </g>
+  <g id="mail" transform="translate(12 14)" clip-path="url(#clip-path)">
+    <path id="Path_437" data-name="Path 437" d="M4.617,4H25.554a2.625,2.625,0,0,1,2.617,2.617v15.7a2.625,2.625,0,0,1-2.617,2.617H4.617A2.625,2.625,0,0,1,2,22.319V6.617A2.625,2.625,0,0,1,4.617,4Z" transform="translate(-0.691 -2.691)" fill="none" stroke="#f53c56" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <path id="Path_438" data-name="Path 438" d="M28.171,6,15.085,15.16,2,6" transform="translate(-0.691 -2.074)" fill="none" stroke="#f53c56" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+  </g>
+</svg>
