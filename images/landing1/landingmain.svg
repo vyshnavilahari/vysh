@@ -1,0 +1,170 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1081.229" height="831.302" viewBox="0 0 1081.229 831.302">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#bd11fa"/>
+      <stop offset="1" stop-color="#46c2ff"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#6c63ff"/>
+      <stop offset="1" stop-color="#92fe9d"/>
+    </linearGradient>
+    <filter id="Ellipse_73" x="0" y="521.02" width="310.283" height="310.283" filterUnits="userSpaceOnUse">
+      <feOffset dx="5" dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="30" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Ellipse_74" x="509.628" y="294.745" width="286.964" height="286.964" filterUnits="userSpaceOnUse">
+      <feOffset dx="5" dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="30" result="blur-2"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Ellipse_96" x="640.284" y="350.145" width="333.645" height="333.645" filterUnits="userSpaceOnUse">
+      <feOffset dx="5" dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="30" result="blur-3"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-3"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Ellipse_106" x="633.617" y="0" width="447.612" height="447.612" filterUnits="userSpaceOnUse">
+      <feOffset dx="5" dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="30" result="blur-4"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-4"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Path_9783" x="839.886" y="601.839" width="87.474" height="94.095" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-5"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-5"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_11918" data-name="Group 11918" transform="translate(-851.464 -179)">
+    <g id="Group_11917" data-name="Group 11917">
+      <g id="Group_3581" data-name="Group 3581" transform="translate(0 -63)">
+        <path id="Path_2" data-name="Path 2" d="M1402.307,729.363H643.957V316.158c0-26.477,22.805-47.941,50.937-47.941H1351.37c28.132,0,50.937,21.464,50.937,47.941Z" transform="translate(330.257 198.936)" opacity="0.79" fill="url(#linear-gradient)"/>
+        <path id="Path_3" data-name="Path 3" d="M1384.419,723.814H655.461V315.788c0-18.062,15.6-32.7,34.85-32.7h659.258c19.247,0,34.85,14.642,34.85,32.7Z" transform="translate(333.448 200.428)" fill="#fff"/>
+        <path id="Path_4" data-name="Path 4" d="M963,227.785v0Z" transform="translate(398.326 210.77)"/>
+        <circle id="Ellipse_1" data-name="Ellipse 1" cx="2.975" cy="2.975" r="2.975" transform="translate(1354.96 492.912)" fill="#fff"/>
+        <path id="Path_5" data-name="Path 5" d="M577.25,690.829V679.965a4.357,4.357,0,0,1,4.24-4.465h920.3a4.357,4.357,0,0,1,4.24,4.465v10.865Z" transform="translate(311.75 239.845)" fill="#fff"/>
+        <path id="Path_6" data-name="Path 6" d="M591.635,700.124,577.25,687.5h928.778l-16.689,14.646a2.716,2.716,0,0,1-1.793.684H598.73A10.747,10.747,0,0,1,591.635,700.124Z" transform="translate(311.75 238.441)" fill="url(#linear-gradient-2)"/>
+        <path id="Path_7" data-name="Path 7" d="M1026.855,679.583h-108.4a4.082,4.082,0,0,1-4.081-4.083h116.558A4.082,4.082,0,0,1,1026.855,679.583Z" transform="translate(380.731 242.633)" fill="url(#linear-gradient)"/>
+        <ellipse id="Ellipse_72" data-name="Ellipse 72" cx="54.346" cy="54.346" rx="54.346" ry="54.346" transform="translate(1044.85 424.376)" fill="#e0157d" opacity="0.86"/>
+        <g transform="matrix(1, 0, 0, 1, 851.46, 242)" filter="url(#Ellipse_73)">
+          <ellipse id="Ellipse_73-2" data-name="Ellipse 73" cx="65.141" cy="65.141" rx="65.141" ry="65.141" transform="translate(85 608.02)" fill="#c4c0ff" opacity="0.88"/>
+        </g>
+        <g transform="matrix(1, 0, 0, 1, 851.46, 242)" filter="url(#Ellipse_74)">
+          <ellipse id="Ellipse_74-2" data-name="Ellipse 74" cx="53.482" cy="53.482" rx="53.482" ry="53.482" transform="translate(594.63 381.74)" fill="#6c63ff" opacity="0.4"/>
+        </g>
+        <rect id="Rectangle_252" data-name="Rectangle 252" width="298.237" height="80.831" transform="translate(1202.558 751.229)" fill="#3f3d56"/>
+        <path id="Path_9765" data-name="Path 9765" d="M708.758,267.8l-11.909,5.636,10.54-7.881a59.477,59.477,0,0,0-5.755-7.573L649.989,270.82l46.651-17.8a59.468,59.468,0,0,0-6.774-5.164l-78.7,12.676a58.978,58.978,0,0,0-12.917,36.806H716.711a58.945,58.945,0,0,0-7.953-29.542Z" transform="translate(772.936 283.166)" fill="#f2f2f2"/>
+        <path id="Path_9766" data-name="Path 9766" d="M588.212,136.948a347.252,347.252,0,0,0-418.67,90C278.542,203.061,468.321,161.718,588.212,136.948Z" transform="translate(902.913 327.398)" fill="#f2f2f2" opacity="0.98"/>
+        <path id="Path_9767" data-name="Path 9767" d="M664.573,292.814l-40.321-59.892s61.063,21.317,54.133,59.892Z" transform="translate(765.053 287.695)" fill="#3f3d56"/>
+        <path id="Path_9768" data-name="Path 9768" d="M678.14,292.814l40.321-59.892S657.4,254.24,664.328,292.814Z" transform="translate(753.068 287.695)" fill="#6c63ff"/>
+        <path id="Path_9769" data-name="Path 9769" d="M654.686,573.294H355.752V157.873H654.686ZM357.146,572H653.293V159.171H357.146Z" transform="translate(846.457 338.305)" fill="#2f2e41"/>
+        <rect id="Rectangle_254" data-name="Rectangle 254" width="297.541" height="1.394" transform="translate(1203.254 511.084)" fill="#2f2e41"/>
+        <ellipse id="Ellipse_75" data-name="Ellipse 75" cx="2.787" cy="2.787" rx="2.787" ry="2.787" transform="translate(1208.132 503.293)" fill="#6c63ff"/>
+        <ellipse id="Ellipse_76" data-name="Ellipse 76" cx="2.787" cy="2.787" rx="2.787" ry="2.787" transform="translate(1215.797 503.293)" fill="#6c63ff"/>
+        <ellipse id="Ellipse_77" data-name="Ellipse 77" cx="2.787" cy="2.787" rx="2.787" ry="2.787" transform="translate(1223.462 503.293)" fill="#6c63ff"/>
+        <rect id="Rectangle_255" data-name="Rectangle 255" width="12.543" height="6.968" transform="translate(1213.707 516.927)" fill="#6c63ff"/>
+        <rect id="Rectangle_256" data-name="Rectangle 256" width="61.32" height="6.968" transform="translate(1213.707 543.578)" fill="#6c63ff"/>
+        <rect id="Rectangle_257" data-name="Rectangle 257" width="61.32" height="6.968" transform="translate(1493.13 495.497) rotate(180)" fill="#f2f2f2"/>
+        <rect id="Rectangle_258" data-name="Rectangle 258" width="103.129" height="4.181" transform="translate(1213.707 555.424)" fill="#f2f2f2"/>
+        <rect id="Rectangle_259" data-name="Rectangle 259" width="97.554" height="4.181" transform="translate(1213.707 564.482)" fill="#f2f2f2"/>
+        <rect id="Rectangle_260" data-name="Rectangle 260" width="71.075" height="4.181" transform="translate(1213.707 573.541)" fill="#f2f2f2"/>
+        <rect id="Rectangle_261" data-name="Rectangle 261" width="40.415" height="4.181" transform="translate(1237.398 697.574)" fill="#f2f2f2"/>
+        <rect id="Rectangle_262" data-name="Rectangle 262" width="38.231" height="4.181" transform="translate(1237.398 706.633)" fill="#f2f2f2"/>
+        <rect id="Rectangle_263" data-name="Rectangle 263" width="27.854" height="4.181" transform="translate(1237.398 715.691)" fill="#f2f2f2"/>
+        <rect id="Rectangle_264" data-name="Rectangle 264" width="40.415" height="4.181" transform="translate(1331.469 697.574)" fill="#f2f2f2"/>
+        <rect id="Rectangle_265" data-name="Rectangle 265" width="38.231" height="4.181" transform="translate(1331.469 706.633)" fill="#f2f2f2"/>
+        <rect id="Rectangle_266" data-name="Rectangle 266" width="27.854" height="4.181" transform="translate(1331.469 715.691)" fill="#f2f2f2"/>
+        <rect id="Rectangle_267" data-name="Rectangle 267" width="40.415" height="4.181" transform="translate(1429.023 697.574)" fill="#f2f2f2"/>
+        <rect id="Rectangle_268" data-name="Rectangle 268" width="38.231" height="4.181" transform="translate(1429.023 706.633)" fill="#f2f2f2"/>
+        <rect id="Rectangle_269" data-name="Rectangle 269" width="27.854" height="4.181" transform="translate(1429.023 715.691)" fill="#f2f2f2"/>
+        <rect id="Rectangle_270" data-name="Rectangle 270" width="61.32" height="6.968" transform="translate(1300.112 855.751)" fill="#6c63ff"/>
+        <rect id="Rectangle_271" data-name="Rectangle 271" width="103.129" height="4.181" transform="translate(1300.112 867.597)" fill="#f2f2f2"/>
+        <rect id="Rectangle_272" data-name="Rectangle 272" width="97.554" height="4.181" transform="translate(1300.112 876.656)" fill="#f2f2f2"/>
+        <rect id="Rectangle_273" data-name="Rectangle 273" width="71.075" height="4.181" transform="translate(1300.112 885.715)" fill="#f2f2f2"/>
+        <rect id="Rectangle_274" data-name="Rectangle 274" width="242.492" height="1.394" transform="translate(1232.172 618.834)" fill="#6c63ff" opacity="0.3"/>
+        <rect id="Rectangle_275" data-name="Rectangle 275" width="51.564" height="45.99" transform="translate(1231.824 643.222)" fill="#6c63ff" opacity="0.3"/>
+        <rect id="Rectangle_276" data-name="Rectangle 276" width="51.564" height="45.99" transform="translate(1325.895 643.222)" fill="#3f3d56"/>
+        <rect id="Rectangle_277" data-name="Rectangle 277" width="51.564" height="45.99" transform="translate(1423.448 643.222)" fill="#3f3d56"/>
+        <path id="Path_9770" data-name="Path 9770" d="M560.315,464.4l-.68-.013c.015-.753.44-18.508,7.43-23.416l.391.557C560.747,446.238,560.318,464.22,560.315,464.4Z" transform="translate(784.644 224.618)" fill="#6c63ff"/>
+        <ellipse id="Ellipse_78" data-name="Ellipse 78" cx="3.401" cy="3.401" rx="3.401" ry="3.401" transform="translate(1351.902 658.563)" fill="#6c63ff"/>
+        <path id="Path_9771" data-name="Path 9771" d="M572.094,451.5a10.59,10.59,0,0,1-5.464.236,9.651,9.651,0,0,1,9.923-3.4,10.589,10.589,0,0,1-4.459,3.168Z" transform="translate(782.522 222.473)" fill="#6c63ff"/>
+        <path id="Path_9772" data-name="Path 9772" d="M700.315,464.4l-.68-.013c.015-.753.44-18.508,7.43-23.416l.391.557C700.747,446.238,700.318,464.22,700.315,464.4Z" transform="translate(742.197 224.618)" fill="#6c63ff"/>
+        <ellipse id="Ellipse_79" data-name="Ellipse 79" cx="3.401" cy="3.401" rx="3.401" ry="3.401" transform="translate(1449.457 658.563)" fill="#6c63ff"/>
+        <path id="Path_9773" data-name="Path 9773" d="M712.094,451.5a10.591,10.591,0,0,1-5.464.236,9.651,9.651,0,0,1,9.923-3.4A10.59,10.59,0,0,1,712.094,451.5Z" transform="translate(740.077 222.473)" fill="#6c63ff"/>
+        <rect id="Rectangle_278" data-name="Rectangle 278" width="61.32" height="6.968" transform="translate(1213.707 777.011)" fill="#6c63ff"/>
+        <rect id="Rectangle_279" data-name="Rectangle 279" width="103.129" height="4.181" transform="translate(1213.707 788.857)" fill="#f2f2f2"/>
+        <rect id="Rectangle_280" data-name="Rectangle 280" width="97.554" height="4.181" transform="translate(1213.707 797.916)" fill="#f2f2f2"/>
+        <rect id="Rectangle_281" data-name="Rectangle 281" width="71.075" height="4.181" transform="translate(1213.707 806.974)" fill="#f2f2f2"/>
+        <ellipse id="Ellipse_80" data-name="Ellipse 80" cx="21.774" cy="21.774" rx="21.774" ry="21.774" transform="translate(1418.922 764.853)" fill="#6c63ff" opacity="0.4"/>
+        <ellipse id="Ellipse_81" data-name="Ellipse 81" cx="15.274" cy="15.274" rx="15.274" ry="15.274" transform="translate(1385.123 781.752)" fill="#6c63ff" opacity="0.4"/>
+        <ellipse id="Ellipse_82" data-name="Ellipse 82" cx="55.049" cy="55.049" rx="55.049" ry="55.049" transform="translate(1076.086 780.147)" fill="#2f2e41"/>
+        <rect id="Rectangle_282" data-name="Rectangle 282" width="16.724" height="29.963" transform="translate(1106.049 878.398)" fill="#2f2e41"/>
+        <rect id="Rectangle_283" data-name="Rectangle 283" width="16.724" height="29.963" transform="translate(1139.496 878.398)" fill="#2f2e41"/>
+        <ellipse id="Ellipse_83" data-name="Ellipse 83" cx="13.936" cy="5.226" rx="13.936" ry="5.226" transform="translate(1106.049 903.483)" fill="#2f2e41"/>
+        <ellipse id="Ellipse_84" data-name="Ellipse 84" cx="13.936" cy="5.226" rx="13.936" ry="5.226" transform="translate(1139.496 902.787)" fill="#2f2e41"/>
+        <circle id="Ellipse_85" data-name="Ellipse 85" cx="18.814" cy="18.814" r="18.814" transform="translate(1113.713 802.445)" fill="#fff"/>
+        <circle id="Ellipse_86" data-name="Ellipse 86" cx="6.271" cy="6.271" r="6.271" transform="translate(1126.256 806.626)" fill="#3f3d56"/>
+        <path id="Path_9774" data-name="Path 9774" d="M176.765,590.884c-4.445-19.906,9.764-40.021,31.736-44.927s43.387,7.254,47.832,27.16-10.117,27.248-32.089,32.154S181.21,610.79,176.765,590.884Z" transform="translate(900.97 193.118)" fill="#6c63ff"/>
+        <ellipse id="Ellipse_87" data-name="Ellipse 87" cx="27.524" cy="8.641" rx="27.524" ry="8.641" transform="translate(1153.35 795.602) rotate(-65.077)" fill="#2f2e41"/>
+        <ellipse id="Ellipse_88" data-name="Ellipse 88" cx="8.641" cy="27.524" rx="8.641" ry="27.524" transform="translate(1051.236 770.722) rotate(-27.893)" fill="#2f2e41"/>
+        <ellipse id="Ellipse_89" data-name="Ellipse 89" cx="8.641" cy="27.524" rx="8.641" ry="27.524" transform="translate(1567.846 771.685) rotate(-21.078)" fill="#2f2e41"/>
+        <ellipse id="Ellipse_90" data-name="Ellipse 90" cx="55.049" cy="55.049" rx="55.049" ry="55.049" transform="translate(1581.758 780.636)" fill="#2f2e41"/>
+        <rect id="Rectangle_284" data-name="Rectangle 284" width="16.724" height="29.963" transform="translate(1665.622 908.777) rotate(179.84)" fill="#2f2e41"/>
+        <rect id="Rectangle_285" data-name="Rectangle 285" width="16.724" height="29.963" transform="translate(1628.647 908.871) rotate(179.84)" fill="#2f2e41"/>
+        <ellipse id="Ellipse_91" data-name="Ellipse 91" cx="13.936" cy="5.226" rx="13.936" ry="5.226" transform="translate(1637.74 903.983) rotate(-0.16)" fill="#2f2e41"/>
+        <ellipse id="Ellipse_92" data-name="Ellipse 92" cx="13.936" cy="5.226" rx="13.936" ry="5.226" transform="translate(1600.763 903.38) rotate(-0.16)" fill="#2f2e41"/>
+        <circle id="Ellipse_93" data-name="Ellipse 93" cx="18.814" cy="18.814" r="18.814" transform="translate(1616.56 802.938)" fill="#fff"/>
+        <circle id="Ellipse_94" data-name="Ellipse 94" cx="6.271" cy="6.271" r="6.271" transform="translate(1632.63 811.071)" fill="#3f3d56"/>
+        <path id="Path_9775" data-name="Path 9775" d="M1020.889,591.422c4.389-19.919-9.876-39.993-31.861-44.838s-43.367,7.375-47.756,27.294,10.193,27.22,32.179,32.064S1016.5,611.341,1020.889,591.422Z" transform="translate(669.174 192.919)" fill="#6c63ff"/>
+        <ellipse id="Ellipse_95" data-name="Ellipse 95" cx="27.524" cy="8.641" rx="27.524" ry="8.641" transform="translate(1673.703 809.623) rotate(-25.535)" fill="#2f2e41"/>
+        <path id="Path_9776" data-name="Path 9776" d="M992.613,710.627c.015,5.388-13.828,16.066-29.221,16.109s-29.869-15.085-29.884-20.472,14.436,1,29.83.962S992.592,705.24,992.613,710.627Z" transform="translate(671.291 144.841)" fill="#fff"/>
+        <g transform="matrix(1, 0, 0, 1, 851.46, 242)" filter="url(#Ellipse_96)">
+          <circle id="Ellipse_96-2" data-name="Ellipse 96" cx="76.823" cy="76.823" r="76.823" transform="translate(725.28 437.15)" fill="#6c63ff" opacity="0.4"/>
+        </g>
+        <ellipse id="Ellipse_97" data-name="Ellipse 97" cx="55.049" cy="55.049" rx="55.049" ry="55.049" transform="translate(1092.046 617.223)" fill="#2f2e41"/>
+        <rect id="Rectangle_286" data-name="Rectangle 286" width="16.724" height="29.963" transform="translate(1114.717 710.315) rotate(10.261)" fill="#2f2e41"/>
+        <rect id="Rectangle_287" data-name="Rectangle 287" width="16.724" height="29.963" transform="translate(1147.629 716.274) rotate(10.261)" fill="#2f2e41"/>
+        <ellipse id="Ellipse_98" data-name="Ellipse 98" cx="5.226" cy="13.936" rx="5.226" ry="13.936" transform="matrix(0.646, -0.763, 0.763, 0.646, 1139.375, 745.932)" fill="#2f2e41"/>
+        <ellipse id="Ellipse_99" data-name="Ellipse 99" cx="5.226" cy="13.936" rx="5.226" ry="13.936" transform="matrix(0.646, -0.763, 0.763, 0.646, 1107.148, 740.099)" fill="#2f2e41"/>
+        <circle id="Ellipse_100" data-name="Ellipse 100" cx="18.814" cy="18.814" r="18.814" transform="translate(1132.135 639.992)" fill="#fff"/>
+        <circle id="Ellipse_101" data-name="Ellipse 101" cx="6.271" cy="6.271" r="6.271" transform="translate(1152.409 645.791)" fill="#3f3d56"/>
+        <path id="Path_9777" data-name="Path 9777" d="M214.325,347.825c-.828-20.38,16.737-37.642,39.231-38.555s41.4,14.867,42.229,35.246-14.809,25.01-37.3,25.924S215.153,368.2,214.325,347.825Z" transform="translate(889.344 264.559)" fill="#6c63ff"/>
+        <ellipse id="Ellipse_102" data-name="Ellipse 102" cx="27.524" cy="8.641" rx="27.524" ry="8.641" transform="matrix(0.975, -0.223, 0.223, 0.975, 1169.164, 659.969)" fill="#2f2e41"/>
+        <ellipse id="Ellipse_103" data-name="Ellipse 103" cx="27.524" cy="8.641" rx="27.524" ry="8.641" transform="matrix(0.975, -0.223, 0.223, 0.975, 1061.105, 677.939)" fill="#2f2e41"/>
+        <path id="Path_9778" data-name="Path 9778" d="M254.872,478.849a12.543,12.543,0,1,0,24.684,4.468c1.234-6.816-4.036-9.228-10.853-10.462S256.105,472.032,254.872,478.849Z" transform="translate(877.104 215.117)" fill="#fff"/>
+        <rect id="Rectangle_288" data-name="Rectangle 288" width="51.564" height="45.99" transform="translate(1227.32 612.747) rotate(16.689)" fill="#3f3d56"/>
+        <path id="Path_9779" data-name="Path 9779" d="M398.838,427.027l-.648-.208c.23-.717,5.736-17.6,13.841-20.3l.214.645C404.468,409.753,398.893,426.855,398.838,427.027Z" transform="translate(833.591 235.062)" fill="#6c63ff"/>
+        <ellipse id="Ellipse_104" data-name="Ellipse 104" cx="3.401" cy="3.401" rx="3.401" ry="3.401" transform="translate(1246.707 635.743)" fill="#6c63ff"/>
+        <path id="Path_9780" data-name="Path 9780" d="M416.29,417.9a10.59,10.59,0,0,1-5.3-1.343,9.651,9.651,0,0,1,10.482-.411,10.59,10.59,0,0,1-5.18,1.754Z" transform="translate(829.71 232.555)" fill="#6c63ff"/>
+        <ellipse id="Ellipse_105" data-name="Ellipse 105" cx="37.59" cy="37.59" rx="37.59" ry="37.59" transform="translate(1557.298 583.248)" fill="#fcb42b" stroke="#fff" stroke-width="8"/>
+        <g transform="matrix(1, 0, 0, 1, 851.46, 242)" filter="url(#Ellipse_106)">
+          <ellipse id="Ellipse_106-2" data-name="Ellipse 106" cx="133.806" cy="133.806" rx="133.806" ry="133.806" transform="translate(718.62 87)" fill="#14abac" opacity="0.97"/>
+        </g>
+        <path id="Path_9754" data-name="Path 9754" d="M170.477,646.284c0,27.351-16.257,36.9-36.315,36.9-.465,0-.929-.007-1.39-.017-.929-.02-1.852-.063-2.761-.127-18.1-1.28-32.164-11.321-32.164-36.757,0-26.318,33.631-59.532,36.165-62l0,0c.1-.1.147-.144.147-.144S170.477,618.936,170.477,646.284Z" transform="translate(791.239 241.258)" fill="#6c63ff"/>
+        <rect id="Rectangle_289" data-name="Rectangle 289" width="61.32" height="6.968" transform="translate(1000.039 564.198)" fill="#6c63ff"/>
+        <rect id="Rectangle_290" data-name="Rectangle 290" width="103.129" height="4.181" transform="translate(1000.039 576.044)" fill="#f2f2f2"/>
+        <rect id="Rectangle_291" data-name="Rectangle 291" width="97.554" height="4.181" transform="translate(1000.039 585.102)" fill="#f2f2f2"/>
+        <rect id="Rectangle_292" data-name="Rectangle 292" width="71.075" height="4.181" transform="translate(1000.039 594.161)" fill="#f2f2f2"/>
+        <rect id="Rectangle_293" data-name="Rectangle 293" width="40.415" height="4.181" transform="translate(1527.415 491.215)" fill="#f2f2f2"/>
+        <rect id="Rectangle_294" data-name="Rectangle 294" width="38.231" height="4.181" transform="translate(1527.415 500.273)" fill="#f2f2f2"/>
+        <rect id="Rectangle_295" data-name="Rectangle 295" width="27.854" height="4.181" transform="translate(1527.415 509.332)" fill="#f2f2f2"/>
+        <rect id="Rectangle_296" data-name="Rectangle 296" width="51.564" height="45.99" transform="translate(1577.041 866.649) rotate(141)" fill="#6c63ff" opacity="0.3"/>
+        <rect id="Rectangle_297" data-name="Rectangle 297" width="40.415" height="4.181" transform="translate(1002.051 715.56)" fill="#f2f2f2"/>
+        <rect id="Rectangle_298" data-name="Rectangle 298" width="70.415" height="4.181" transform="translate(1002.051 724.618)" fill="#f2f2f2"/>
+        <path id="Path_9781" data-name="Path 9781" d="M738.654,273.2l-15.13,7.161,13.391-10.013a75.56,75.56,0,0,0-7.311-9.621l-65.618,16.31,59.272-22.61a75.563,75.563,0,0,0-8.607-6.56l-99.987,16.1a74.935,74.935,0,0,0-16.411,46.764H748.759a74.893,74.893,0,0,0-10.1-37.534Z" transform="translate(1109.241 614.309)" fill="#f2f2f2"/>
+        <g transform="matrix(1, 0, 0, 1, 851.46, 242)" filter="url(#Path_9783)">
+          <path id="Path_9783-2" data-name="Path 9783" d="M682.025,309.017l51.229-76.1s-77.583,27.085-68.778,76.1Z" transform="translate(185.11 374.92)" fill="#6c63ff"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
